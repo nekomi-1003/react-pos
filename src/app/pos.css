@@ -1,0 +1,135 @@
+.pos-system {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    padding: 10px; /* Reduced padding to fit content */
+    gap: 10px; /* Reduced gap to fit content */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.sales-table {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.sales-table .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px; /* Reduced padding to fit content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: auto; /* Allow scrolling within the table if needed */
+    flex: 1;
+}
+
+.sales-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sales-table th, .sales-table td {
+    padding: 8px; /* Reduced padding to fit content */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.sales-table th {
+    background-color: #f9f9f9;
+}
+
+.barcode-input {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Reduced gap to fit content */
+    justify-content: flex-start;
+}
+
+.barcode-input label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.barcode-input input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.payment-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px; /* Reduced margin to fit content */
+}
+
+.payment-section label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.payment-section input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.payment-section div {
+    margin-top: 10px; /* Reduced margin to fit content */
+    font-weight: bold;
+}
+
+.report {
+    margin-top: 10px; /* Reduced margin to fit content */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px; /* Reduced padding to fit content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: auto; /* Allow scrolling within the report if needed */
+}
+
+.report table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.report th, .report td {
+    padding: 8px; /* Reduced padding to fit content */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.report th {
+    background-color: #f9f9f9;
+}
